@@ -1,7 +1,6 @@
 ## Jadia Diarization package
 
-K-means based open source package, good at parsing dialogs. Requires number of speakers to be provided.
-
+Kmeans-based fully open source (model code provided) package, good at parsing dialogs. Requires number of speakers to be provided. Fast in 'fast_fit' mode, when clusters are defined using only first slice of audio. 
 
 ### Install:
 `pip install jadia`
@@ -24,3 +23,7 @@ segments = diarizer.predictions_to_segments(predictions)
 
 Look into `eval.ipynb` notebook for plotting, metrics etc. 
 
+### TODO:
+- improved lite model
+- heavier model with extra transformer layers
+- fine-tuning

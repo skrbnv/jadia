@@ -1,0 +1,6 @@
+librosa>=0.10.1
+numpy>=2.1.0
+silero_vad>=5.1
+soundfile>=0.12.1
+soxr>=0.3.7
+torch>=2.4.0
