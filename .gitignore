@@ -4,3 +4,5 @@ src/jadia/__pycache__
 *.pyc
 dist
 jadia.egg-info
+results
+.env

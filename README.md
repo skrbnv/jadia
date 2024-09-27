@@ -9,12 +9,12 @@ Kmeans-based fully open source (model code provided) package, good at parsing di
 
 ### Usage
 ```python
-diarizer = Jadia(device=torch.device("cuda:0"),model="lite", batch_size=64)
+diarizer = Jadia(device=torch.device("cuda:0"),model="lite_v2", batch_size=64)
 segments = diarizer.process(FILENAME, num_voices=NUM_VOICES)
 ```
 or 
 ```python
-diarizer = Jadia(device=torch.device("cuda:0"), model="lite", batch_size=64)
+diarizer = Jadia(device=torch.device("cuda:0"), model="lite_v2", batch_size=64)
 diarizer.setup(num_voices=NUM_VOICES)
 diarizer.load_audio(filename=FILENAME)
 predictions = diarizer.predict()

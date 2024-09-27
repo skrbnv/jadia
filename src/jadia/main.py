@@ -16,7 +16,11 @@ modelinfo = {
     "lite": {
         "name": "model_lite",
         "checkpoint": "assets/lite.pt",
-    }
+    },
+    "lite_v2": {
+        "name": "model_lite",
+        "checkpoint": "assets/lite_v2.pt",
+    },
 }
 
 
